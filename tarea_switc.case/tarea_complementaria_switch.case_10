@@ -1,0 +1,28 @@
+Algoritmo sin_titulo
+	//Como paciente, necesito recibir indicaciones según el tipo de consulta médica.
+	
+	Definir nombre como caracter
+	Definir opcion Como Entero
+	
+	Escribir "nombre de paciente"
+	leer nombre 
+	
+	Escribir "1. consulta odontologica"
+	Escribir "2. consulta general"
+	Escribir "3. consulta para embarazadas"
+	Escribir "elija una opcion"
+	leer opcion 
+	
+	segun opcion hacer 
+		Opcion 1:
+			Escribir "para las citas odontologicas necesits venir sin comer y cepillado"
+		Opcion 2:
+			Escribir "puede venir con ropa comoda dependiendo de los sintomas"
+		Opcion 3:
+			Escribir "venir con ropa ancha"
+	FinSegun
+	
+	
+	
+	
+FinAlgoritmo

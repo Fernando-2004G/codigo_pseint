@@ -1,0 +1,25 @@
+Algoritmo sin_titulo
+	//Como supervisor de calidad, necesito evaluar lotes de productos e identificar aquellos que incumplen los estándares.
+	
+	Definir calidad Como Real
+	Definir lotes Como Entero
+	Definir producto Como Caracter
+	Definir estandares Como Entero
+	
+	estandares <- 200
+	
+	Escribir "nombre del producto"
+	leer producto
+	Escribir "cuantos lotes son"
+	leer lotes 
+	Escribir "cuantos puntos de calidad tiene"
+	leer calidad
+	
+	si calidad <= estandares Entonces
+		Escribir "estos lotes no cumplen con los estandares"
+	SiNo
+		Escribir "estos lotes estan perfectos"
+	FinSi
+	
+	
+FinAlgoritmo

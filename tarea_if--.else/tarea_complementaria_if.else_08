@@ -1,0 +1,20 @@
+Algoritmo sin_titulo
+	//Como usuario de una aplicación climática, quiero que el sistema 
+	//recomiende llevar paraguas si existe probabilidad de lluvia usando if_else, para prepararme adecuadamente.
+	
+	Definir usuario Como Caracter
+	Definir probabilidad_lluvia Como real
+	Definir nublado Como caracter
+	
+	Escribir "usuario"
+	leer usuario 
+	Escribir "humedad del aire"
+	leer probabilidad_lluvia
+	
+	si probabilidad_lluvia > 60 Entonces
+		Escribir "se recomida llevar paraguas"
+	SiNo
+		Escribir "no es necesario llevar paraguas"
+	FinSi
+
+FinAlgoritmo

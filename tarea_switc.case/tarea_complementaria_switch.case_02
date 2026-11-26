@@ -1,0 +1,28 @@
+Algoritmo sin_titulo
+	//Como estudiante, necesito consultar información específica de una asignatura según el código ingresado.
+	
+	Definir asignatura Como entero
+	Definir codigo_1 Como Entero
+	Definir codigo_2 Como Entero
+	Definir codigo_3 Como Entero
+	
+	codigo_1 <- 4521
+	codigo_2 <- 8745
+	codigo_3 <- 9856
+	
+	Escribir "codigo dde la asignatura"
+	leer asignatura 
+	
+	Segun asignatura Hacer
+		4521:
+			Escribir "la asignatura es matematicas"
+		8745:
+			Escribir "la asignatura es ingles"
+		9856:
+			Escribir "la asignatura es naturales"
+		De Otro Modo:
+			Escribir "no hay asignaturas programadas"
+	Fin Segun
+	
+	
+FinAlgoritmo

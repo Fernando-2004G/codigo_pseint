@@ -1,0 +1,31 @@
+Algoritmo sin_titulo
+	//Como viajero, necesito conocer las condiciones de equipaje según la aerolínea seleccionada.
+	
+	Definir vuelo como caracter
+	Definir opcion como entero 
+	
+	Escribir "para donde desea ir"
+	leer vuelo 
+	Escribir "su vuelo para ",vuelo " esta disponible con las siguientes aerolineas"
+	
+	Escribir "1. avianca"
+	Escribir "2. volar"
+	Escribir "3. bcm "
+	
+	Escribir "en que aerolinea desea ir"
+	leer opcion 
+	
+	segun opcion hacer 
+		
+		opcion 1: 
+			Escribir "maletas no mas grande de 1.50 y no pesen mas  50kg"
+			
+		opcion 2:
+			Escribir "maletas que no pasen por cierta cinta no pueden viajar"
+			
+		Opcion 3: 
+			Escribir "maletas que lleven comestibles no pueden viajar"
+		
+	FinSegun
+	
+FinAlgoritmo

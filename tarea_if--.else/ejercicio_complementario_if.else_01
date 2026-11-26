@@ -1,0 +1,28 @@
+Algoritmo sin_titulo
+	//Como usuario del sistema, quiero que el programa evalúe si soy mayor 
+	//o menor de edad mediante if_else, para recibir el contenido adecuado a mi edad
+	
+	
+	Definir usuario Como Caracter
+	Definir edad Como Entero
+	
+	Escribir "me podrias regalar tu nombre"
+	leer usuario
+	
+	Escribir "me podrias regalar tu edad"
+	leer edad 
+	si edad <= 17 Entonces
+		
+		Escribir "usuario: ",usuario " es menor de edad"
+		
+	SiNo
+		Escribir "usuario: ",usuario " es mayor de edad"
+		
+		
+		
+	FinSi
+	
+	
+	
+	
+FinAlgoritmo

@@ -1,0 +1,76 @@
+Algoritmo sin_titulo
+	// Como ciudadano, necesito visualizar trámites disponibles según la entidad seleccionada bancos,clinicas o esculas 
+	
+	Definir tramites Como entero
+	Definir entidad Como entero
+	
+	Escribir "con que entidad busca"
+	Escribir "1. bancos"
+	Escribir "2. clinicas"
+	Escribir "3. escuelas"
+	leer entidad
+	
+	segun entidad hacer 
+		Opcion 1: 
+			Escribir "que tramite desea realizar?"
+			Escribir "1. transaciones de bancos"
+			Escribir "2. actualizar informacion"
+			Escribir "3. cancelar cuenta"
+			leer tramites 
+			Segun tramites Hacer
+				1:
+					Escribir "El tramite a realizar es: Transacciones bancarias"
+				2:
+					Escribir "El tramite a realizar es: Actualizar informacion"
+				3:
+					Escribir "El tramite a realizar es: Cancelar cuenta"
+				De Otro Modo:
+					Escribir "Tramite no valido"
+			FinSegun
+			Escribir "el tramite a realizar es ",ConvertirATexto(tramites)
+		Opcion 2: 
+			Escribir "que tramite desea realizar?"
+			Escribir "1. agendar una cita"
+			Escribir "2. cancelar una cita"
+			Escribir "3. actualizar datos personales"
+			leer tramites 
+			segun tramite hacer 
+				1:
+					Escribir "el tramite a realizar es : agendar cita"
+				2:
+					Escribir "el tramite a realizar es : cancelar una cita"
+				3:
+					Escribir "el tramite a realizar es : actualizar datos personales"
+				De Otro Modo:
+					Escribir "tramite no valido"
+			FinSegun
+			
+			
+		Opcion 3:
+			Escribir "que tramite desea realiar?"
+			Escribir "1. solicitar notas"
+			Escribir "2. solicitar retiro"
+			Escribir "3. solicitar traslado"
+			leer tramites
+			
+			Segun tramites hacer 
+					1:
+						Escribir "el tramite a realizar es : solicitar notas"
+					2:
+						Escribir "el tramite a realizar es : solicitar un retiro "
+					3:
+						Escribir "el tramite a realizar es : solicitar un traslado"
+						
+					De Otro Modo:
+						Escribir "tramite no valido"
+			FinSegun
+			
+			
+		De Otro Modo:
+			Escribir "traamoite no valido"
+			
+	FinSegun
+	
+	
+	
+FinAlgoritmo

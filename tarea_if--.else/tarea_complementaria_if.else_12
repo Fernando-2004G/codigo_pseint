@@ -1,0 +1,49 @@
+Algoritmo sin_titulo
+	//Como usuario de una plataforma educativa, quiero que el sistema desbloquee niveles 
+	//avanzados solo si apruebo el nivel actual usando if_else, para seguir una ruta de aprendizaje adecuada.
+	
+	Definir usuario como caracter
+	Definir nivel como real 
+	Definir respuesta_nivel_1 como real
+	Definir respuesta_nivel_2 Como Caracter
+	Definir respuesta_nivel_3 Como real
+	
+	Escribir "nombre de usuario"
+	leer usuario
+	
+	respuesta_nivel_1 <- 50
+	respuesta_nivel_2 <- "bogota" 
+	respuesta_nivel_3 <- 8
+	
+	Escribir "cuanto es 25 + 25?"
+	leer respuesta_nivel_1
+	
+	si respuesta_nivel_1 = 50 Entonces
+		Escribir "respuesta correcta avanzas al siguiente nivel"
+		
+		Escribir "cual es la capital de colombia"
+		leer respuesta_nivel_2
+		
+		si respuesta_nivel_2 = "bogota" Entonces
+			Escribir "respuesta correcta avanzas al siguiente nivel"
+			
+			Escribir "cuantos planetas tiene el sistema solar"
+			leer respuesta_nivel_3
+			
+			si respuesta_nivel_3 = 8 Entonces
+				Escribir "respuesta correcta felicidades"
+			SiNo
+				Escribir "respuesta incorrecta"
+			FinSi
+		SiNo
+			Escribir "respuesta incorrecta no puedes seguir avanzando"
+		FinSi
+		
+	SiNo
+		Escribir "respuesta incorrecta no puedes seguir avanzando"
+	FinSi
+	
+	
+	
+	
+FinAlgoritmo

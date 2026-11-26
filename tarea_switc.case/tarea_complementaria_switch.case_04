@@ -1,0 +1,34 @@
+Algoritmo sin_titulo
+	//Como empleado, necesito seleccionar un departamento para acceder a las herramientas asignadas.
+	
+	Definir empleado Como Caracter
+	Definir departamento como caracter
+	Definir opcion como real 
+	
+	Escribir "nombre del empleado"
+	leer empleado
+	
+	Escribir "1. herramientas de construcion"
+	Escribir "2. herramientas de mecanica"
+	Escribir "3. herramientas de electricidad"
+	
+	Escribir "eleja una opcion"
+	leer opcion 
+	
+	segun opcion hacer 
+		
+		opcion 1: 
+			Escribir "martillo,porra,sincel,palustre"
+			
+		opcion 2: 
+			Escribir "hombre solo,juego de llaves,juego de copas,rache"
+			
+		opcion 3: 
+			Escribir "destornillador,cortafrio,termoencogible"
+	FinSegun
+	
+	
+	
+	
+	
+FinAlgoritmo

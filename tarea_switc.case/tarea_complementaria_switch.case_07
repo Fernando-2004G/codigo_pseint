@@ -1,0 +1,35 @@
+Algoritmo sin_titulo
+	//Como cliente bancario, necesito acceder a distintas operaciones según el servicio escogido.
+	
+	Definir usuario Como Caracter
+	Definir opcion como entero 
+	
+	Escribir "nombre de usuario"
+	leer usuario 
+	Escribir "bienvenido ",usuario 
+	
+	Escribir "1. trasnferencias"
+	Escribir "2. cambiar contraseña"
+	Escribir "3. historia de transfarencias"
+	Escribir "elija una opcion"
+	leer opcion 
+	
+	segun opcion hacer 
+		
+		opcion 1: 
+			Escribir "vas a realizar una transferencia"
+			
+		opcion 2:
+			Escribir "vas a realizar un cambio de contraseña"
+			
+		Opcion 3: 
+			Escribir "estas son las trasnferencias que has echo y que has recivido"
+		
+		
+		
+		
+	FinSegun
+	
+	
+	
+FinAlgoritmo

@@ -1,0 +1,22 @@
+Algoritmo sin_titulo
+	//Como organizador de eventos, quiero que el sistema valide si quedan cupos disponibles mediante if_else, para aceptar o rechazar nuevas inscripciones.
+	
+	Definir eventos Como entero
+	Definir cupo Como Entero
+	
+	cupo <- 5
+	
+	Escribir " cuantos eventos desea"
+	leer eventos 
+	si eventos >= cupo Entonces
+		
+		Escribir "no hay cupo disponibles"
+	SiNo
+		
+		Escribir "si hay cupo"
+	FinSi
+	
+	
+	
+	
+FinAlgoritmo

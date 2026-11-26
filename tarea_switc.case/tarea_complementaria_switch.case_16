@@ -1,0 +1,25 @@
+Algoritmo sin_titulo
+	//Como usuario de un cajero automático, necesito escoger una operación desde un menú de opciones.
+	
+	Definir menu Como entero
+	
+	Escribir "bienvenido al cajero el flash"
+	Escribir "que opercaciones desea realizar"
+	Escribir "1. retiro"
+	Escribir "2. consultar saldo"
+	Escribir "3. cambiar contraseña"
+	leer menu 
+	
+	segun menu hacer 
+		
+		1:
+			Escribir "cuanto deseas retirar"
+		2:
+			Escribir "su saldo es $$$"
+		3:
+			Escribir "estas a punto de cambiar tu contraseña"
+		
+		
+		
+	FinSegun
+FinAlgoritmo

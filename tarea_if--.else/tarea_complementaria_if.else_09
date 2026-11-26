@@ -1,0 +1,25 @@
+Algoritmo sin_titulo
+	//Como comprador en línea, quiero que el sistema determine si aplican gastos de envío 
+	//según el valor de mi pedido mediante if_else, para conocer el costo total.
+	
+	Definir usuario Como Caracter
+	Definir valor_del_pedido Como Real
+	Definir valor_del_envio Como real
+	
+	Escribir "me podrias regalar tu nombre?"
+	leer usuario
+	Escribir "bienvenido " , usuario 
+	Escribir "valor del pedido"
+	leer valor_del_pedido
+	si valor_del_pedido >= 50.000 Entonces
+		Escribir "no paga envio"
+	SiNo
+		escribir "tiene que pagar el envio "
+		leer valor_del_envio
+		Escribir "el valor del envio es de: ", valor_del_envio
+	FinSi
+	
+	
+	
+	
+FinAlgoritmo

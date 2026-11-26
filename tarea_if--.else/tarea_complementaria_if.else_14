@@ -1,0 +1,23 @@
+Algoritmo sin_titulo
+	//Como usuario de una biblioteca, necesito saber si puedo solicitar un nuevo libro dependiendo de mis préstamos pendientes.
+	
+	Definir prestamos_pendientes Como Real
+	Definir usuario Como Caracter
+	Definir prestamo Como Real
+	
+	Escribir "usuario"
+	leer usuario
+	
+	prestamos_pendientes <- 2
+	
+	Escribir "cuantos libros quiere llevar" 
+	leer prestamo
+	
+	si prestamos_pendientes + prestamo >= 4 Entonces
+		Escribir "no se puede hacer mas prestamos"
+	SiNo
+		Escribir "prestamos valido"
+	FinSi
+	
+	
+FinAlgoritmo

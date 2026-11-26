@@ -1,0 +1,22 @@
+Algoritmo sin_titulo
+	//Como profesor, quiero que el sistema determine si un estudiante aprueba 
+	//o reprueba según su nota mediante if_else, para agilizar la evaluación académica.
+	
+	Definir estudiante Como Caracter
+	Definir nota Como real
+	
+	Escribir " nombre del estudiante:"
+	leer estudiante 
+	
+	Escribir "nota del estudiante"
+	leer nota 
+	si nota <= 5.9 Entonces
+		Escribir "estudiante: ", estudiante " reprovo la materia"
+		
+	FinSi
+	
+	si nota >= 6.0 Entonces
+		Escribir "el estudiante: " , estudiante " aprovo la materia"
+	FinSi
+	
+FinAlgoritmo

@@ -1,0 +1,31 @@
+Algoritmo sin_titulo
+	//Como visitante de un museo, necesito acceder a información según la sala elegida.
+	
+	Definir sala Como Entero
+	
+	Escribir "bienvenido al museo el flash"
+	Escribir "tipos de sal"
+	Escribir "1. pinturas"
+	Escribir "2. estatuas"
+	Escribir "3. reliquias"
+	Escribir "a cual sala desea ir"
+	leer sala
+	
+	segun sala Hacer
+		
+		1:
+			Escribir "hay pinturas como la  mona lisa,la gioconda,las meninas"
+			
+		2:
+			Escribir "hay estatuas de El david, Discobolo, El ejercito de terracota"
+			
+		3:
+			Escribir "hay reliquias como el sudatio de turin, la tiara de saitafernes"
+			
+		De Otro Modo:
+			Escribir "no hay mas salas"
+		
+		
+		
+	FinSegun
+FinAlgoritmo

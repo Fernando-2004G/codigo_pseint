@@ -1,0 +1,32 @@
+Algoritmo sin_titulo
+	//Como comprador, necesito identificar promociones según la categoría de producto
+	
+	Definir usuario Como Caracter
+	Definir producto Como Entero
+	Definir promociones Como Entero
+	
+	Escribir "nombre de usuario"
+	leer usuario 
+	
+	Escribir "tipos de productos"
+	Escribir "1. electrodomesticos"
+	Escribir "2. para el hogar"
+	Escribir "3. para el uso personal"
+	Escribir "que tipo de producto busca"
+	leer producto 
+	
+	Segun producto  Hacer
+		Opcion 1:
+			Escribir "este producto tiene una promocion que le permite aplicar un descuento del 5%" 
+		Opcion  2:
+			Escribir "este producto tiene una promocion de lleva dos y paga uno"
+		Opcion 3:
+			Escribir "este producto tiene una promocion del 50%"
+		De Otro Modo:
+			Escribir "no hay mas promociones"
+	Fin Segun
+	
+	
+	
+	
+FinAlgoritmo

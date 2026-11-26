@@ -1,0 +1,25 @@
+Algoritmo sin_titulo
+	//Como administrador de acceso, quiero que el sistema permita o deniegue 
+	//el ingreso según las credenciales ingresadas mediante if_else, para proteger la información.
+	
+	Definir credencial Como Caracter
+	Definir usuario Como Caracter
+	Definir contraseña Como Entero
+	
+	contraseña <- 4521
+	
+	Escribir "usuario"
+	leer usuario 
+	Escribir "contraseña"
+	leer contraseña 
+	
+	si contraseña = 4521 Entonces
+		Escribir " usuario permito se le permite el ingreso"
+		
+	SiNo
+		Escribir " usuario no permitido denegado el acceso"
+		
+	FinSi
+	
+	
+FinAlgoritmo

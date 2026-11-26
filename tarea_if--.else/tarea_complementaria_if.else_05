@@ -1,0 +1,21 @@
+Algoritmo sin_titulo
+	//Como conductor, quiero que el sistema me indique si excedo el límite de velocidad utilizando if_else, para evitar sanciones
+	
+	Definir limite_de_velocidad Como Real
+	Definir sancion Como Real
+	
+	leer limite_de_velocidad
+	Escribir "el vehiculo va a ", limite_de_velocidad "K/H"
+	
+	si limite_de_velocidad >= 60 Entonces
+		Escribir "tiene que pagar un comparendo por exeso de velocidad"
+	FinSi
+	
+	si limite_de_velocidad <= 60 Entonces
+		Escribir "velocidad en rango permitido"
+	FinSi
+	
+	
+	
+	
+FinAlgoritmo

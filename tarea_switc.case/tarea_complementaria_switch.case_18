@@ -1,0 +1,30 @@
+Algoritmo sin_titulo
+	//Como cliente de seguros, necesito consultar coberturas según el tipo de póliza.
+	
+	Definir poliza Como entero
+	
+	Escribir "tipos de poliza"
+	Escribir "1. poliza nacional"
+	Escribir "2. poliza vecina"
+	Escribir "3. poliza internacional"
+	Escribir "que tipo de poliza desea adquirir"
+	leer poliza 
+	
+	segun poliza hacer 
+		1:
+			Escribir "este tipo de poliza cubre solo dentro de la nacion sea cual sea el pais"
+			
+		2:
+			Escribir "este tipo de poliza cubre tanto el pais de origen como uno extra"
+			
+		3:
+			Escribir "este tipo de poliza cubre 5 paises a escoger"
+			
+		De Otro Modo:
+			Escribir "no hay mas polizas"
+	FinSegun
+	
+	
+	
+	
+FinAlgoritmo

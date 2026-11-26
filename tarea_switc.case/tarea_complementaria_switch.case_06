@@ -1,0 +1,34 @@
+Algoritmo sin_titulo
+	//Como conductor, necesito visualizar los límites de velocidad según el tipo de vía.
+	
+	Definir tipo_de_via Como Caracter
+	Definir limites_de_velocidad Como Entero
+	Definir opcion como entero
+	
+	Escribir "por donde va a viajar"
+	Escribir "1. via internacional"
+	Escribir "2. ciudad"
+	Escribir "3. nacionales"
+	
+	Escribir "escoja tipo de via"
+	leer opcion
+	
+	segun Opcion  hacer 
+		
+		opcion 1: 
+			Escribir "en vias internacionales puede ir a 150k/h"
+			
+		Opcion 2:
+			Escribir "en vias de ciudad puede ir a 60k/h"
+			
+		Opcion 3: 
+			Escribir "en vias nacionales puede ir a 90k/h"
+			
+			
+	FinSegun
+	
+	
+	
+	
+	
+FinAlgoritmo

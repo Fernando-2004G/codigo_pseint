@@ -1,0 +1,23 @@
+Algoritmo sin_titulo
+	//Como cajero de una tienda, quiero que el sistema aplique un descuento cuando la compra 
+	// supere un monto determinado usando if_else, para automatizar el cálculo del precio final
+	
+	Definir compra Como real
+	Definir descuento Como real
+	
+	
+	descuento <- 50.000
+	Escribir "bienvenido"
+	Escribir "total de la compra"
+	leer compra
+	si compra <= 250.000  Entonces
+		
+		Escribir "su total de la compra es de: ", compra " no aplica descuento"
+	SiNo
+		
+		Escribir "su total de la compra es superior a: ",compra " tiene un descuento del 5%: "
+	FinSi
+	
+	
+	
+FinAlgoritmo

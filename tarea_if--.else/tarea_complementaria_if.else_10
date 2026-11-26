@@ -1,0 +1,22 @@
+Algoritmo sin_titulo
+	//Como estudiante, quiero que el sistema identifique si una respuesta es 
+	//correcta o incorrecta utilizando if_else, para obtener retroalimentación inmediata.
+	
+	Definir respuesta_correcta Como Real
+	Definir respuesta_usuario Como Real
+	Definir num Como Real
+	
+	respuesta_correcta <- 4
+	Escribir "cual es la respuesta correcta"
+	Escribir "cuanto es 2 * 2 ?"
+	leer respuesta_usuario
+	si respuesta_correcta = respuesta_usuario Entonces
+		Escribir "respuesta correcta"
+	SiNo
+		Escribir "respuesta incorreccta"
+	FinSi
+	
+	
+	
+	
+FinAlgoritmo

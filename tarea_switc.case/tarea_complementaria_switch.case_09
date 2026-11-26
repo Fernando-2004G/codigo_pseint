@@ -1,0 +1,29 @@
+Algoritmo sin_titulo
+	//Como cliente de una tienda virtual, necesito ver métodos de pago según el país seleccionado
+	
+	Definir tienda Como Caracter
+	Definir opcion Como Entero
+	
+	Escribir "bienvenido a la tienda el flash"
+	Escribir "las opciones de pago son las siguientes"
+	Escribir "1. para los paises de colombia"
+	Escribir "2. para los paises de venezuela"
+	Escribir "3. para los paises de mexico"
+	Escribir "elija el paies"
+	leer opcion 
+	
+	segun opcion hacer 
+		Opcion 1: 
+			Escribir "puedes hacer transferenciass directas de cualquier banco"
+			
+		Opcion 2:
+			Escribir "puedes hacer los pagos por pse"
+			
+		Opcion 3:
+			Escribir "puedes hacer los pagos por paypal"
+	FinSegun
+	
+	
+	
+	
+FinAlgoritmo

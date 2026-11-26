@@ -1,0 +1,41 @@
+Algoritmo sin_titulo
+	//Como cliente de un gimnasio, necesito consultar actividades según la categoría elegida.
+	
+	Definir cliente Como Caracter
+	Definir opcion Como Entero
+	
+	Escribir "nombre del cliente"
+	leer cliente 
+	Escribir "bienvenido ",cliente 
+	Escribir "las acitividades se dividen segun el tipo que llevas en el gym"
+	Escribir "1. principiante"
+	Escribir "2. pro"
+	Escribir "3. veterano"
+	Escribir "escoje una de las 3 opciones"
+	leer opcion 
+	
+	segun opcion hacer 
+		
+		Opcion 1: 
+			Escribir "llevas mas de 3 meses en el gym felicidades"
+			Escribir "aplicas para la actividad de el princiante mas fuerte"
+			Escribir "consiste en el principiante que alce mas peso gana "
+			
+		Opcion 2:
+			Escribir "llevas mas de 1 año en el gym felicidades"
+			Escribir "aplicas para la actividad de quien es el mas pro"
+			Escribir "consiste en el que haga una rutina completa con buena tecnica y alto peso gana"
+			
+		Opcion 3:
+			Escribir "llevas mas de 3 años en el gym felicidades"
+			Escribir "aplicas para la actividad de el futuro arnol"
+			Escribir "consiste en un conpetencia de estetica el de mejor estetica gana"
+		
+		
+		
+	FinSegun
+	
+	
+	
+	
+FinAlgoritmo

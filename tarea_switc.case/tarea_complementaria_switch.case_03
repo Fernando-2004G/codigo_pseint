@@ -1,0 +1,37 @@
+Algoritmo sin_titulo
+	//Como usuario de una plataforma de streaming, necesito visualizar recomendaciones según el género elegido.
+	
+	Definir usuario Como Caracter
+	Definir contraseña Como Entero
+	Definir opcion Como entero
+	
+	Escribir "nombre de usuario"
+	leer usuario
+	Escribir "contraseña"
+	leer contraseña 
+	Escribir "bienvenido ", usuario "a la plataforma de streaming el flash"
+	
+	Escribir " tipos de genero"
+	Escribir "1. comedia"
+	Escribir "2. juegos"
+	Escribir "3. comida"
+	Escribir "elija una opcion"
+	leer opcion 
+	
+	Segun opcion hacer 
+		opcion 1: 
+			Escribir " hay homedia de terror, accion, animadas"
+			
+		opcion 2: 
+			Escribir "hay juegos de terror, battler royale,mundo abierto"
+			
+		opcion 3:
+			escribir "hay de comida asiatica, india, turca"
+	FinSegun
+	
+	
+	
+	
+	
+	
+FinAlgoritmo

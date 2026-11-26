@@ -1,0 +1,31 @@
+Algoritmo sin_titulo
+	//Como cliente bancario, quiero que el sistema valide si tengo saldo suficiente 
+	//antes de realizar un retiro usando if_else, para evitar operaciones inválidas
+	
+	Definir usuario Como Caracter
+	Definir contraseña Como Entero
+	Definir saldo Como Real
+	Definir retiro Como Real
+	
+	saldo <- 800000
+	
+	Escribir "usuario"
+	leer usuario 
+	Escribir "contraseña"
+	leer contraseña 
+	Escribir "bienvenido ", usuario
+	Escribir "su saldo es de: ", saldo " cuando desea retirar? "
+	leer retiro
+	si saldo >= 800000 Entonces
+		Escribir "saldo insuficiente no puede realizar el retiro"
+	FinSi
+	
+	si saldo <= 800000 Entonces
+		Escribir " el retiro es exito se retiro: ", retiro
+	FinSi
+	
+	
+	
+	
+	
+FinAlgoritmo

@@ -1,0 +1,33 @@
+Algoritmo sin_titulo
+	//Como usuario de una universidad virtual, necesito acceder a recursos específicos según mi programa académico.
+	
+	Definir usuario Como Caracter
+	Definir opcion Como Entero
+	
+	Escribir "nombre de usuario"
+	leer usuario
+	Escribir "nombre del programa_academico"
+	Escribir "1. calculo"
+	Escribir "2. lenguas estrangeras"
+	Escribir "3. programcacion"
+	Escribir "elija una opcion"
+	leer opcion
+	
+	segun opcion hacer 
+		
+		Opcion 1: 
+			Escribir "para el programa de calculo tiene los siguientes recursos"
+			Escribir "exel,calculadpora online"
+			
+		Opcion 2:
+			Escribir "para el programa de lenguas estrangeras cuenta con los sigientes recursos"
+			Escribir "profesores de alto rendimiento,programas de estimulacion "
+			
+		Opcion 3:
+			Escribir "para el programa de programacion cuanta con los siguientes recursos"
+			Escribir "profesores de alto desempeño, herramientas para la practica de programacion y guias paso a paso"
+		
+	FinSegun
+	
+	
+FinAlgoritmo

@@ -1,0 +1,29 @@
+Algoritmo sin_titulo
+	//Como estudiante de programación, quiero utilizar una estructura if_else para determinar 
+	//si un número es positivo o negativo, para comprender la toma de decisiones en un programa
+	
+	
+	Definir usuario Como Caracter
+	Definir num Como real
+	
+	Escribir "nombre de usuario"
+	leer usuario 
+	Escribir "numero"
+	leer num
+	si num >= 1 y num <= 100 Entonces
+		
+		
+		Escribir "numero positivo: ",num
+	SiNo
+		
+			
+			Escribir "numero es negativo: ",num
+		
+		
+	FinSi
+	
+	
+	
+	
+	
+FinAlgoritmo

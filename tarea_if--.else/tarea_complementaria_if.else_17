@@ -1,0 +1,22 @@
+Algoritmo sin_titulo
+	//Como responsable de becas, necesito analizar estudiantes y determinar quiénes cumplen las condiciones de asignación.
+	
+	Definir puntaje_beca Como Real
+	Definir estudiante Como Caracter
+	Definir puntaje_requerido Como Real
+	
+	puntaje_requerido <- 450
+	
+	Escribir "nombre del estudiante"
+	leer estudiante
+	Escribir "puntaje"
+	leer puntaje_beca
+	
+	si puntaje_beca <= puntaje_requerido Entonces
+		Escribir "lo sentimos no cumples los requisitos necesarios"
+	SiNo
+		Escribir "felicidades aplicas para una beca"
+	FinSi
+	
+	
+FinAlgoritmo

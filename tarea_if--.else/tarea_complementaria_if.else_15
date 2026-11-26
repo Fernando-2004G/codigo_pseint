@@ -1,0 +1,24 @@
+Algoritmo sin_titulo
+	//Como jefe de almacén, necesito controlar todos los productos y señalar aquellos con existencias críticas.
+	
+	Definir producto como caracter 
+	Definir fecha_limite Como entero
+	Definir fecha_actual Como entero
+	
+	fecha_limite <- 20261212
+	
+	Escribir "nombre del producto"
+	leer producto 
+	
+	Escribir "fecha del producto"
+	leer fecha_actual 
+	
+	si fecha_actual >= fecha_limite Entonces
+		Escribir "el producto esta vencido"
+	SiNo
+		Escribir "el productoesta en buen estado"
+	FinSi
+	
+	
+	
+FinAlgoritmo

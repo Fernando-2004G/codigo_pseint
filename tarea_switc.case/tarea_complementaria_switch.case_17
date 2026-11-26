@@ -1,0 +1,33 @@
+Algoritmo sin_titulo
+	//Como estudiante, necesito visualizar distintos contenidos según el módulo seleccionado.
+	
+	Definir estudiante Como Caracter
+	Definir contenido Como Entero
+	
+	Escribir "nombre del estudiante"
+	leer estudiante 
+	Escribir "que modulo desea celecinar"
+	Escribir "1. matematicas"
+	Escribir "2. ingles"
+	Escribir "3. informatica"
+	Escribir "celecione un modulo"
+	leer contenido
+	
+	segun contenido hacer 
+		1: 
+			Escribir "has celecionado matematicas"
+			Escribir "el contenido son sumas,restas,multiplicaciones y diviciones"
+			
+		2:
+			Escribir "has celecionado ingles"
+			Escribir "el contenido son ejercicios de comunicacion para reforzar el idioma"
+			
+		3: 
+			Escribir "has celecionado informatica"
+			Escribir "el contenido son ejercios de word, exel , powerpoint "
+	FinSegun
+	
+	
+	
+	
+FinAlgoritmo

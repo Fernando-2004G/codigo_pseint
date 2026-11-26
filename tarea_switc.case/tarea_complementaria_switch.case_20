@@ -1,0 +1,37 @@
+Algoritmo sin_titulo
+	//Como usuario de una plataforma educativa, necesito seleccionar una opción para visualizar diferentes materiales de estudio.
+	
+	Definir usuario Como Caracter
+	Definir selecionar Como Entero
+	
+	Escribir "nombre de usuario"
+	leer usuario
+	
+	Escribir "tipos de materiales de estudio"
+	Escribir "1. matematicas"
+	Escribir "2. ingles "
+	Escribir "3. sociales"
+	Escribir "selecioene el materias de estudio que desea"
+	leer selecionar
+	
+	segun selecionar hacer
+		
+		1:
+			Escribir "realice la siguiente ecuacion"
+			Escribir " x4?8x3+22x2?24x+9=0 "
+			
+		2:
+			Escribir "tradusca las siguientes palabras "
+			Escribir "hello , bye, red "
+			
+		3:
+			Escribir " responda la siguiente pregunta"
+			Escribir "cuando se construyo la muralla china"
+		
+		
+		
+	FinSegun
+	
+	
+	
+FinAlgoritmo

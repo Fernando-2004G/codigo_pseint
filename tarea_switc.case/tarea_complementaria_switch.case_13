@@ -1,0 +1,31 @@
+Algoritmo sin_titulo
+	//Como usuario de un aeropuerto, necesito conocer requisitos según el destino del viaje
+	
+	Definir usuario Como Caracter
+	Definir requisitos Como entero
+	
+	Escribir "nombre de usuario"
+	leer usuario 
+	Escribir "bienveido ",usuario
+	Escribir "los requisiros segun el destino son"
+	Escribir "1. cartagena"
+	Escribir "2. españa"
+	Escribir "3. canada"
+	leer requisitos
+	
+	segun requisitos Hacer
+		Opcion 1:
+			Escribir "el requisito son maletas pequeñas"
+			
+		Opcion 2:
+			Escribir "el requisito es el pasaporte"
+			
+		Opcion 3:
+			Escribir "el requisito es tener pasaporte,visa"
+		De Otro Modo:
+			Escribir "destino no valido"
+	FinSegun
+	
+	
+	
+FinAlgoritmo

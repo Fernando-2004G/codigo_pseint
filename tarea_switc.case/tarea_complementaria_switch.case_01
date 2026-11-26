@@ -1,0 +1,48 @@
+Algoritmo sin_titulo
+	//Como usuario de una calculadora, quiero seleccionar una operación matemática mediante un menú de opciones, para realizar cálculos según la operación elegida.
+	
+	Definir usuario Como Caracter
+	Definir opcion Como Entero
+	Definir numero_1 Como Real
+	Definir numero_2 como real 
+	Definir resultado Como Real
+	
+	Escribir "calculadora"
+	Escribir "1. sumar"
+	Escribir "2. restar"
+	Escribir "3. multiplicar"
+	Escribir "4. dividir"
+	Escribir "seleccione una opcion:"
+	leer opcion
+	
+	Escribir "ingrese el primer numero"
+	leer numero_1
+	Escribir "ingrese el segundo numero"
+	leer numero_2
+	
+	segun opcion hacer
+		
+		opcion 1 : resultado <- numero_1 + numero_2
+			Escribir "resultado: ",resultado
+			
+		Opcion 2: resuldado <- numero_1 - numero_2
+			Escribir "resuldado: ",resuldado
+			
+		Opcion 3: resultado <- numero_1 * numero_2
+			Escribir "resultado: ", resultado 
+			
+		Opcion 4: si numero_2 <> 0 Entonces
+				resuldado <- numero_1 / numero_2
+			SiNo
+				Escribir "no se puede dividir entre cero"
+			FinSi
+		
+		De Otro Modo:
+			Escribir "opcion no valida"
+	FinSegun
+	
+	
+	
+	
+	
+FinAlgoritmo

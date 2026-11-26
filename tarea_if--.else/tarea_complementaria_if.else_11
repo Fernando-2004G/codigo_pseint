@@ -1,0 +1,26 @@
+Algoritmo sin_titulo
+	//Como trabajador de recursos humanos, quiero que el sistema calcule un bono 
+	//cuando un empleado cumpla ciertos objetivos mediante if_else, para automatizar incentivos.
+	
+	Definir bono Como Real
+	Definir objetivo Como real
+	Definir ventas Como Real
+	
+	objetivo <- 100000
+	
+	Escribir "ingrese el valor de ventas del empleado"
+	Leer ventas 
+	
+	si ventas >= objetivo Entonces
+		bono <- 10000
+		Escribir "el empleadoo supero el objetivo"
+		Escribir "se gano un bono de: $",bono 
+		
+	SiNo
+		Escribir "empleado no supero el objetivo"
+		Escribir "no se puedo ganar gono"
+	FinSi
+	
+	
+	
+FinAlgoritmo

@@ -1,0 +1,23 @@
+Algoritmo sin_titulo
+	//Como gerente de recursos humanos, necesito evaluar a todos los empleados y determinar cuáles cumplen los objetivos establecidos.
+	
+	Definir objetivos_establecidos Como Caracter
+	Definir empleado Como Caracter
+	Definir desenpeño Como Caracter
+	objetivos_establecidos <- "puntualidad,calidad,desempeño"
+	
+	Escribir "nombre del empleado"
+	leer empleado 
+	Escribir "cuales son sus objetivos en este puesto"
+	leer desempeño 
+	
+	si desempeño <> objetivos_establecidos Entonces
+		Escribir "el trabajador no cumple los objetivos_establecidos"
+	SiNo
+		Escribir "el trabajador si cumple los objetivos_establecidos"
+	FinSi
+	
+	
+	
+	
+FinAlgoritmo

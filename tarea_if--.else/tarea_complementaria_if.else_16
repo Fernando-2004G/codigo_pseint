@@ -1,0 +1,20 @@
+Algoritmo sin_titulo
+	//Como responsable financiero, necesito analizar todas las transacciones y clasificar las que superen un monto determinado.
+	
+	Definir transacciones Como Real
+	Definir monto_determinado Como Real
+	
+	monto_determinado <- 150000
+	
+	Escribir "ingrese la cantida de la transaccion"
+	leer transacciones
+	
+	si transacciones >= monto_determinado Entonces
+		Escribir "transaccion de alto monto clasificar aparte"
+	SiNo
+		Escribir "transaccion nomal"
+	FinSi
+	
+	
+	
+FinAlgoritmo

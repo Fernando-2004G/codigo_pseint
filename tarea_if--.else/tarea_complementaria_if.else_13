@@ -1,0 +1,16 @@
+Algoritmo sin_titulo
+	//Como atleta, necesito que el sistema indique si cumplí la marca mínima para clasificar a una competición.
+	
+	Definir clasificacion Como entero
+	Definir puntaje como entero
+	clasificacion <- 55
+	Escribir "cuantos puntos consiguio"
+	leer puntaje
+	
+	si puntaje >= clasificacion Entonces
+		Escribir "has sido seleccionado para la competencia"
+	SiNo
+		escribir "puntos insuficientes no pudiste clasificar"
+	FinSi
+	
+FinAlgoritmo
